@@ -209,7 +209,7 @@ namespace JamBot
         {
             await Task.Run(() =>
             {
-                string path = "H:\\Users\\Tobias\\source\\repos\\CuratorBot\\CuratorBot\\example.cfg";
+                string path = "\\example.cfg";
                 string[] arrLine = File.ReadAllLines(path);
                 string[] lines = arrLine;
                 Array.Resize(ref lines,lines.Length + 1);
