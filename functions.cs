@@ -61,7 +61,6 @@ namespace JamBot
 
         internal static Server[] GetServerList()
         {            
-            //string path = "C:\\Users\\tobib\\source\\repos\\JamBot\\JamBot\\serverlist.txt";
             string? path = ConfigurationManager.AppSettings["ServerList"];
             Server[] serverList;
             if (path != null)
